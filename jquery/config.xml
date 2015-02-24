@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "club.introverts"
+	versionCode="1"
+	version   = "1.0">
+
+    <name>introverts.club</name>
+    <description>An app with sample questions. Ice Breaker Questions. First Date Questions. Make better conversation.</description>
+
+    <author href="timhobert.com" email="timhobert@gmail.com">Tim Hobert</author>
+
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+
+    <preference name="phonegap-version" value="3.3.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="disallowOverscroll" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="prerendered-icon" value="false" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="BackgroundColor" value="0xffffffff "/>
+    <preference name="KeepRunning" value="true"/>
+
+    <icon src="img/apps/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
+    <icon src="img/apps/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="img/apps/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
+    <icon src="img/apps/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
+    <icon src="img/apps/icon/ios/icon-76.png" gap:platform="ios" width="76" height="76" />
+    <icon src="img/apps/icon/ios/icon-120.png" gap:platform="ios" width="120" height="120" />
+    <icon src="img/apps/icon/ios/icon-152.png" gap:platform="ios" width="152" height="152" />
+
+<!--     <icon src="img/apps/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="img/apps/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="img/apps/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="img/apps/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+    <icon src="img/apps/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+
+    <gap:splash src="img/apps/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="img/apps/screen/ios/screen-iphone-landscape.png" gap:platform="ios" width="480" height="320" />
+    <gap:splash src="img/apps/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="img/apps/screen/ios/screen-iphone-landscape-2x.png" gap:platform="ios" width="960" height="640" />
+    <gap:splash src="img/apps/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios" width="640" height="1136" />
+    <gap:splash src="img/apps/screen/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024 " />
+    <gap:splash src="img/apps/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768" />
+    <gap:splash src="img/apps/screen/ios/screen-ipad-portrait-2x.png" gap:platform="ios" width="1536" height="2008" />
+    <gap:splash src="img/apps/screen/ios/screen-ipad-landscape-2x.png" gap:platform="ios" width="2048" height="1496" />
+
+    <gap:splash src="img/apps/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="img/apps/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="img/apps/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="img/apps/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="img/apps/screen/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" /> -->
+
+</widget>

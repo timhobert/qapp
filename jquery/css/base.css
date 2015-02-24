@@ -1,0 +1,193 @@
+/**
+* 1.GLOBAL
+*/
+body {
+	background: #060606;
+	color: #dedede;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.875em;
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+
+.hidden {
+	display: none;
+}
+
+/* apply a natural box model to all elements */
+*, :before, :after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img {
+	border: 0; /* Removes border when inside 'a' element in IE6/7/8/9 FF3. */
+	-ms-interpolation-mode: bicubic; /* Improves image quality when scaled in IE7. */
+	width: auto; /* IE8 bug. Requires this to work properly with max-width in scaling images. */
+	max-width: 100%;
+	height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	line-height: 1.1em;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2, .view-grouping-header {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4, h5, h6 {
+	font-size: 1.125em;
+	margin: 0;
+}
+
+p {
+	margin: 0 0 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a: focus {
+	outline: thin dotted;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+/* apply common styling after reset.css */
+li ul, li ol {
+	margin: 0;
+}
+
+ul, ol {
+	margin: 0 1.5em 1.5em 0;
+	padding-left: 1.5em;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+dl {
+	margin: 0 0 1.5em;
+}
+
+dl dt {
+	font-weight: 700;
+}
+
+dd {
+	margin-left: 1.5em;
+}
+
+hr {
+	border: 1px solid rgba(0,0,0,0.1);
+	clear: both;
+	float: none;
+	height: 1px;
+	margin: 0 0 1.4375em;
+	width: 100%;
+}
+
+fieldset {
+	border: 1px solid rbga(0,0,0,0.1);
+	margin: 0 0 1.4375em;
+	padding: 1.5em;
+}
+
+table {
+	max-width: 100%;
+	width: 100%;
+}
+
+th, tr, td {
+	vertical-align: middle;
+}
+
+th, td {
+	padding: 10px;
+	position: relative;
+}
+
+
+/* Layout stuff */
+
+#header, #main, #footer {
+	position: relative;
+}
+
+#main {
+	min-height: 420px;
+	padding: 0 0 2em;
+}
+
+#footer {
+	padding: 1em 0;
+}
+
+
+/* FORMS */
+
+input, input[type="password"], input[type="text"], input[type="email"], textarea {
+	line-height: 1.1em;
+	padding: 8px 8px 7px;
+	height: auto;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	max-width: 100%;
+}
+
+input[type="submit"] {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.85em;
+	padding: 8px 25px;
+	border-radius: 5px;
+	background: #999;
+	color: white;
+	margin: 15px 10px 0 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+input[type="submit"]:hover {
+	background: #888;
+}
+
+input[type="submit"]:active {
+	padding: 9px 25px 7px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+	background: #777;
+}
+
+/* Per Safari’s CSS Reference: 
+	https://developer.apple.com/library/safari/documentation/appleapplications/reference/SafariCSSRef/Articles/StandardCSSProperties.html
+	iOS changes the appearance of buttons & controls to resemble a native apple UI. 
+	Add this code for comment & search forms to retain custom CSS styles:  */
+input[type="submit"] {
+	-webkit-appearance:none;
+}
+

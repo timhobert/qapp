@@ -1,0 +1,166 @@
+@font-face {
+font-family: 'Glyphicons Halflings';
+src: url(../fonts/glyphicons-halflings-regular.eot);
+src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+}
+
+/* FONT iCONS */
+
+.glyphicon {
+position: relative;
+top: 1px;
+display: block;
+font-family: 'Glyphicons Halflings';
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+font-size: 3em;
+margin: 0 0 8px;
+}
+
+.glyphicon-refresh:before {
+content: "\e031";
+}
+
+.glyphicon-heart:before {
+content: "\e005";
+}
+
+.glyphicon-thumbs-up:before {
+content: "\e125";
+}
+
+.glyphicon-thumbs-down:before {
+content: "\e126";
+}
+
+.glyphicon-list-alt:before {
+content: "\e032";
+}
+
+.glyphicon-info-sign:before {
+content: "\e086";
+}
+
+
+/* FONT COLORS */
+
+a {
+color: #2FB5F3;
+}
+
+/* PAGE */
+
+#header, #page-wrapper {
+position: relative;
+padding: 15px;
+overflow: hidden;
+}
+
+#page-wrapper {
+margin: 0 auto;
+width: 100%;
+}
+
+#header {
+background: #262626;
+color: #565656;
+text-transform: lowercase;
+}
+
+#prompt {
+float: left;
+font-size: 2em;
+}
+
+/* FOOTER MENU */
+
+.menu-bottom {
+position: fixed;
+bottom: 0;
+left: 0;
+background: #262626;
+width: 100%;
+}
+
+.menu-bottom ul, .menu-bottom li {
+margin: 0;
+padding: 0;
+}
+
+.menu-bottom li {
+background-color: #161616;
+list-style: none;
+float: left;
+width: 25%;
+cursor: pointer;
+color: #565656;
+text-transform: uppercase;
+font-size: 0.5em;
+padding: 4% 0;
+line-height: 1em;
+text-align: center;
+box-shadow: inset -1px 0 0 rgba(255,255,255,0.1);
+}
+
+.menu-bottom li.last {
+box-shadow: none;
+}
+
+.menu-bottom #select-refresh {
+background: #2FB5F3; /* blue cloud */
+color: #fff;
+}
+
+.menu-bottom li:active {
+padding-top: 17px;
+padding-bottom: 15px;
+}
+
+.menu-bottom #select-favorite {
+background-color: #FC82C3;  /* neon pink. prev: #FF1493; */
+background-color: #161616;
+}
+
+.menu-bottom #select-thumbsup {
+background-color: #18DD00;  /* neon green */
+background-color: #161616;
+}
+
+.menu-bottom #select-thumbsdown {
+background-color: #E1C829;  /* neon yellow */
+background-color: #161616;
+}
+
+.menu-bottom #select-category {
+background-color: #161616;
+}
+
+#question {
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+.response-bottom {
+display: none;
+position: fixed;
+bottom: 0;
+left: 0;
+padding: 6% 6% 100px;
+background: #262626;
+width: 100%;
+font-size: 0.75em;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+#response-favorite, #response-category, #response-info {
+display: none;
+}
+
+/*
+#response-favorite.active, #response-category.active, #response-info.active {
+display: block;
+}
+*/
